@@ -1,0 +1,259 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+li {
+  list-style: none; }
+
+.mod_logo {
+  margin-bottom: 30px;
+  height: 97px; }
+
+.header {
+  width: 100%; }
+
+.mod-nav {
+  background: #ee394b;
+  height: 40px; }
+
+.banner {
+  height: 400px;
+  margin: 0 auto;
+  position: relative; }
+
+.banner_img_list {
+  position: relative; }
+
+.banner_img_li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px; }
+
+.banner_img_li a {
+  display: block;
+  height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto; }
+
+.banner_ad {
+  margin-top: 40px; }
+  .banner_ad .banner_ad_cont {
+    width: 100%;
+    background: orange; }
+    .banner_ad .banner_ad_cont img {
+      display: block;
+      height: 120px;
+      width: 1200px; }
+
+.mod_everyday {
+  padding-top: 25px;
+  font-family: "微软雅黑"; }
+  .mod_everyday .everyday_header {
+    height: 36px;
+    margin: 15px 0; }
+    .mod_everyday .everyday_header .everyday_headerL {
+      float: left;
+      width: 1140px;
+      height: 36px; }
+    .mod_everyday .everyday_header .everyday_headerR {
+      text-align: right;
+      width: 60px;
+      float: right; }
+  .mod_everyday .every_productList {
+    margin-left: -1px;
+    margin-top: -1px;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5; }
+    .mod_everyday .every_productList li {
+      float: left;
+      border-left: 1px solid #e5e5e5;
+      border-top: 1px solid #e5e5e5;
+      width: 239px;
+      height: 256px; }
+      .mod_everyday .every_productList li .every_product_title, .mod_everyday .every_productList li .every_product_subtitle {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+
+.mod_new {
+  padding-top: 25px;
+  font-family: "微软雅黑"; }
+  .mod_new .new_header {
+    height: 36px;
+    margin: 15px 0; }
+    .mod_new .new_header .new_headerL {
+      float: left;
+      width: 1200px;
+      height: 36px; }
+  .mod_new .new_todaySale {
+    width: 100%; }
+    .mod_new .new_todaySale .new_todaySale_list {
+      width: 840px;
+      float: left;
+      margin-right: 20px; }
+      .mod_new .new_todaySale .new_todaySale_list li {
+        width: 100%;
+        border: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        height: 292px;
+        margin-bottom: 10px;
+        cursor: pointer; }
+  .mod_new .new_hotSale {
+    width: 340px;
+    float: right;
+    margin-bottom: 20px; }
+    .mod_new .new_hotSale .new_hotSale_title {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      background: url(http://www.qiyipic.com/common/fix/h5_qiyiShop_img/nav_tint_redbg.png); }
+    .mod_new .new_hotSale .new_hotSale_list {
+      width: 100%;
+      border: 1px solid #e5e5e5;
+      border-top: 0;
+      box-sizing: border-box; }
+      .mod_new .new_hotSale .new_hotSale_list li {
+        width: 100%;
+        height: 110px; }
+  .mod_new .new_hotRecommend {
+    width: 340px;
+    float: right;
+    margin-bottom: 20px; }
+    .mod_new .new_hotRecommend .new_hotRecommend_title {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      background: url(http://www.qiyipic.com/common/fix/h5_qiyiShop_img/nav_tint_redbg.png); }
+    .mod_new .new_hotRecommend .new_hotRecommend_list {
+      width: 100%;
+      border: 1px solid #e5e5e5;
+      border-top: 0;
+      box-sizing: border-box; }
+      .mod_new .new_hotRecommend .new_hotRecommend_list li {
+        width: 340px;
+        height: 230px; }
+
+.mod_brandSale {
+  padding-top: 25px;
+  font-family: "微软雅黑"; }
+  .mod_brandSale .brandSale {
+    height: 36px;
+    margin: 15px 0; }
+  .mod_brandSale .brandList {
+    overflow: hidden;
+    height: 239px;
+    position: relative;
+    border: 1px solid #e5e5e5; }
+    .mod_brandSale .brandList .brandList_first {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1200px;
+      margin-left: -1px;
+      overflow: hidden; }
+    .mod_brandSale .brandList .brandLogo {
+      float: left;
+      margin: -1px 0 0 -1px; }
+      .mod_brandSale .brandList .brandLogo a {
+        display: block;
+        overflow: hidden;
+        width: 119px;
+        height: 119px;
+        border: 1px solid #e5e5e5; }
+
+.footer {
+  margin-top: 40px; }
+
+.footer_icons_codes {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  background: #fafafa;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden; }
+  .footer_icons_codes .footer_icons {
+    height: 185px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5; }
+    .footer_icons_codes .footer_icons .footer_icon_box {
+      width: 20%;
+      height: 100%;
+      display: inline-block;
+      float: left; }
+      .footer_icons_codes .footer_icons .footer_icon_box .footer_icon {
+        width: 70px;
+        height: 70px;
+        margin: 41px auto 0; }
+      .footer_icons_codes .footer_icons .footer_icon_box p {
+        width: 100%;
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+        margin-top: 20px;
+        font-family: "微软雅黑"; }
+
+.footer_codes {
+  height: 120px;
+  margin-top: 39px;
+  margin-bottom: 39px; }
+  .footer_codes .footer_code_box {
+    display: inline-block;
+    float: left;
+    width: 400px;
+    height: 100%; }
+    .footer_codes .footer_code_box .footer_code {
+      float: left;
+      width: 120px;
+      height: 100%; }
+      .footer_codes .footer_code_box .footer_code img {
+        width: 120px;
+        height: 120px; }
+    .footer_codes .footer_code_box .footer_code_text {
+      float: left;
+      width: 270px;
+      margin-left: 10px; }
+      .footer_codes .footer_code_box .footer_code_text h2 {
+        color: #333;
+        font-size: 24px;
+        padding-bottom: 5px;
+        font-weight: normal; }
+      .footer_codes .footer_code_box .footer_code_text p {
+        color: #666;
+        font-size: 14px;
+        line-height: 25px; }
+
+.footer_links {
+  font-size: 12px;
+  margin: 0;
+  height: 195px;
+  padding-bottom: 36px;
+  position: relative;
+  background: #f5f5f5; }
+  .footer_links .footer_box {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer_links .footer_box img {
+      width: 1200px;
+      border: 0; }
+
+.goto_top_box {
+  position: fixed;
+  right: 40px;
+  bottom: 10px;
+  z-index: 10;
+  width: 36px;
+  height: 36px; }
+  .goto_top_box .goto_top {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url(http://www.qiyipic.com/common/fix/h5_qiyiShop_img/baseRedScrollBar.png);
+    background-position: -50px -46px; }
+  .goto_top_box .goto_top:hover {
+    background-position: -50px -128px; }

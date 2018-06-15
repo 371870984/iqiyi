@@ -1,0 +1,171 @@
+@charset "UTF-8";
+.wrapper {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+a {
+  text-decoration: none;
+  color: #999; }
+
+li {
+  list-style: none; }
+
+.header_log, .header_search, .header_search .search_pannel .search_text, .header_search .hot_cutline, .header_search .search_hot a, .header_right .header_right_ad li img, .header_right .header_right_ad p, .header_right .arrow_items span {
+  float: left; }
+
+.header_right, .header_right .header_right_ad, .header_right .arrow_items {
+  float: right; }
+
+.header_log {
+  display: inline-block;
+  margin-top: 30px; }
+  .header_log img {
+    width: 216px;
+    height: 60px; }
+
+.header_search {
+  padding-left: 154px;
+  margin-top: 37px;
+  width: 510px; }
+  .header_search .search_pannel {
+    border: 1px solid #ee394b;
+    height: 34px;
+    position: relative;
+    z-index: 3000; }
+    .header_search .search_pannel .search_text {
+      width: 396px;
+      border: 0;
+      background: #fff;
+      font-size: 12px;
+      padding-left: 10px;
+      height: 14px;
+      line-height: 14px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      outline: 0; }
+    .header_search .search_pannel .search_btn {
+      width: 100px;
+      color: #fff;
+      border: 0;
+      background: #eb3b4a;
+      font-size: 20px;
+      height: 34px;
+      margin: 0;
+      float: right;
+      font-family: "微软雅黑";
+      outline: 0; }
+    .header_search .search_pannel .suggest_box {
+      position: absolute;
+      top: 35px;
+      left: -1px;
+      border: 1px solid #ee394b;
+      border-top: 0;
+      width: 419px;
+      background: #fff;
+      z-index: 200;
+      font-size: 12px;
+      font-family: "微软雅黑";
+      display: none; }
+    .header_search .search_pannel .suggest_li {
+      height: 30px;
+      line-height: 30px; }
+    .header_search .search_pannel .suggest_li:hover {
+      background: #ccc; }
+    .header_search .search_pannel .suggest_link {
+      padding: 0 10px;
+      height: 30px;
+      font-weight: bold;
+      color: #3c3c3c;
+      display: block;
+      overflow: hidden; }
+    .header_search .search_pannel .suggest_linkL {
+      float: left;
+      display: inline-block;
+      width: 320px;
+      height: 30px;
+      line-height: 30px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+    .header_search .search_pannel .suggest_linkR {
+      float: right;
+      color: #999;
+      font-weight: normal; }
+  .header_search .hot {
+    color: #ee394b; }
+  .header_search .hot_cutline {
+    margin-top: 3px 0 0 0;
+    display: inline-block;
+    overflow: hidden;
+    height: 8px;
+    border-left: 1px solid #e5e5e5; }
+  .header_search .search_hot {
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    padding-top: 10px;
+    color: #c7c7c7;
+    margin-left: -8px; }
+    .header_search .search_hot a {
+      margin: 0 10px;
+      font-size: 12px;
+      font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif; }
+
+.header_right {
+  margin-top: 30px;
+  font-family: 'Microsoft YaHei'; }
+  .header_right .active {
+    display: block !important; }
+  .header_right .header_right_ad {
+    width: 160px;
+    height: 50px;
+    overflow: hidden;
+    position: relative; }
+    .header_right .header_right_ad li {
+      display: none;
+      float: right;
+      width: 160px;
+      height: 50px;
+      overflow: hidden;
+      position: relative; }
+      .header_right .header_right_ad li img {
+        margin-right: 10px;
+        width: 50px;
+        height: 50px; }
+    .header_right .header_right_ad p {
+      width: 100px;
+      line-height: 20px;
+      padding: 5px 0; }
+    .header_right .header_right_ad b {
+      display: block;
+      color: #999;
+      font-weight: normal;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 12px; }
+    .header_right .header_right_ad span {
+      display: block;
+      width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #666;
+      cursor: pointer;
+      font-size: 12px; }
+  .header_right .arrow_items {
+    margin: 31px 0 0 10px;
+    width: 39px;
+    height: 19px;
+    background: url(http://pic0.qiyipic.com/common/20150714/arrow2.gif) no-repeat; }
+    .header_right .arrow_items span {
+      width: 19px;
+      height: 19px;
+      cursor: pointer; }

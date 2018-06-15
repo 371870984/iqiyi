@@ -1,0 +1,352 @@
+.wrapper {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+a {
+  text-decoration: none;
+  color: #999; }
+
+li {
+  list-style: none; }
+
+em, i {
+  font-style: normal; }
+
+.banner_btn_list .banner_btn_li {
+  float: left; }
+
+.banner_img_li {
+  z-index: 1;
+  opacity: 1; }
+
+.banner_btn_list {
+  position: absolute;
+  bottom: 22px;
+  text-align: center;
+  z-index: 10;
+  left: 50%;
+  margin-left: -60px; }
+  .banner_btn_list .banner_btn_li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.4); }
+  .banner_btn_list .active {
+    background: #ee394b; }
+
+.prev, .next {
+  width: 66px;
+  display: block;
+  height: 66px;
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-repeat: no-repeat;
+  top: 50%;
+  margin-top: -35px;
+  z-index: 10; }
+
+.prev {
+  left: 50%;
+  margin-left: -600px;
+  background: url(http://www.qiyipic.com/common/fix/PCIndex/images/new_focus_prev.png) no-repeat;
+  background-position: 0 0; }
+
+.next {
+  right: 50%;
+  margin-right: -600px;
+  background: url(http://www.qiyipic.com/common/fix/PCIndex/images/new_focus_next.png) no-repeat;
+  background-position: 0 0; }
+
+.everyday_header_icon, .new_header_icon, .brandSale_icon {
+  background: url(https://pic5.qiyipic.com/common/20160907/ae2dd09618d545a595cc8c97be29a45d.png) no-repeat;
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
+  display: inline-block; }
+
+.everyday_header_title, .new_header_title, .brandSale_title {
+  vertical-align: middle;
+  line-height: 36px;
+  margin: 0 10px;
+  font-size: 28px;
+  color: #333; }
+
+.everyday_header_cutline, .new_header_cutline, .brandSale_cutline {
+  vertical-align: bottom;
+  display: inline-block;
+  margin-bottom: 7px;
+  border-left: 1px solid #c2c2c2;
+  width: 1px;
+  height: 10px; }
+
+.everyday_header_subtitle, .new_header_subtitle, .brandSale_subtitle {
+  vertical-align: bottom;
+  display: inline-block;
+  margin-bottom: 4px;
+  line-height: 16px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #c2c2c2; }
+
+.everyday_header_more {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  vertical-align: bottom;
+  line-height: 50px;
+  padding-right: 10px;
+  position: relative; }
+
+.everyday_header_more:hover {
+  color: #ee394b; }
+
+.every_product {
+  width: 239px;
+  display: block;
+  position: relative;
+  cursor: pointer; }
+  .every_product .every_product_pic {
+    position: relative;
+    text-align: center;
+    display: block;
+    height: 155px;
+    overflow: hidden; }
+    .every_product .every_product_pic img {
+      position: relative;
+      border: 0;
+      vertical-align: middle;
+      margin-top: 15px;
+      width: 140px;
+      height: 140px; }
+  .every_product .every_product_info {
+    margin: 15px 14px auto; }
+    .every_product .every_product_info .every_product_title {
+      font-size: 14px;
+      line-height: 22px;
+      height: 22px; }
+      .every_product .every_product_info .every_product_title a {
+        color: #333; }
+    .every_product .every_product_info .every_product_subtitle {
+      font-size: 12px;
+      color: #999;
+      line-height: 20px;
+      height: 20px; }
+      .every_product .every_product_info .every_product_subtitle .every_product_status {
+        margin-right: 5px;
+        display: inline-block;
+        height: 18px;
+        line-height: 18px;
+        position: relative;
+        font-size: 12px;
+        color: #fff;
+        background: url(https://www.qiyipic.com/common/fix/PCIndex/images/newPCindexproductStatus.png) repeat-x;
+        background-position: 0 0;
+        border-radius: 3px; }
+      .every_product .every_product_info .every_product_subtitle em {
+        display: inline-block;
+        margin-left: 10px;
+        height: 18px;
+        line-height: 18px;
+        background-color: #ee394b;
+        border-radius: 3px;
+        padding-right: 3px;
+        width: 52px;
+        word-break: break-all;
+        text-overflow: clip;
+        overflow: hidden;
+        vertical-align: bottom; }
+    .every_product .every_product_info .every_product_price {
+      height: 44px;
+      line-height: 44px; }
+      .every_product .every_product_info .every_product_price .every_product_cost, .every_product .every_product_info .every_product_price em {
+        font-size: 20px;
+        color: #ee394b; }
+      .every_product .every_product_info .every_product_price .every_product_sale {
+        font-size: 12px;
+        color: #999;
+        float: right; }
+        .every_product .every_product_info .every_product_price .every_product_sale em {
+          font-size: 12px;
+          color: #999; }
+
+.new_header_icon {
+  background: url(https://pic3.qiyipic.com/common/20160907/bb2d4ba3d4fa4b369c76b813af23cd7f.png) no-repeat; }
+
+.shopInfo {
+  width: 258px;
+  float: left; }
+  .shopInfo .shopTitle {
+    width: 240px;
+    font-size: 24px;
+    color: #333;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden;
+    margin: 117px auto 0;
+    height: 24px; }
+    .shopInfo .shopTitle a {
+      color: #333; }
+  .shopInfo .shopprice {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    line-height: 18px;
+    margin-top: 14px;
+    height: 18px;
+    overflow: hidden;
+    padding: 0 10px; }
+    .shopInfo .shopprice a {
+      color: #777; }
+    .shopInfo .shopprice em {
+      color: #ee394b; }
+
+.shopImg {
+  width: 580px;
+  height: 100%;
+  float: left; }
+  .shopImg img {
+    display: block;
+    width: 580px;
+    height: 290px; }
+
+.new_hotSale_icon, .new_hotRecommend_icon {
+  background: url(https://www.qiyipic.com/common/fix/h5_qiyiShop_img/good_hot_redranking.png) no-repeat;
+  margin: 15px 12px 0 16px;
+  float: left;
+  display: inline-block;
+  width: 20px;
+  height: 20px; }
+
+.new_hotSale_text, .new_hotRecommend_text {
+  font-size: 21px;
+  color: #333;
+  display: inline-block;
+  float: left;
+  width: 290px; }
+
+.new_hotSale_list .hotSale_img {
+  width: 130px;
+  height: 110px;
+  float: left;
+  position: relative; }
+  .new_hotSale_list .hotSale_img img {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    position: relative; }
+
+.new_hotSale_list .hotSale_info {
+  float: left;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  position: relative;
+  height: 110px;
+  width: 200px; }
+  .new_hotSale_list .hotSale_info .hotSale_first {
+    background: url(https://www.qiyipic.com/common/fix/h5_qiyiShop_img/hot_first.png) no-repeat; }
+  .new_hotSale_list .hotSale_info .hotSale_second {
+    background: url(https://www.qiyipic.com/common/fix/h5_qiyiShop_img/hot_second.png) no-repeat; }
+  .new_hotSale_list .hotSale_info .hotSale_third {
+    background: url(https://www.qiyipic.com/common/fix/h5_qiyiShop_img/hot_third.png) no-repeat; }
+  .new_hotSale_list .hotSale_info .hotSale_fourth {
+    background: url(https://www.qiyipic.com/common/fix/h5_qiyiShop_img/hot_fourth.png) no-repeat; }
+  .new_hotSale_list .hotSale_info .hotSale_fifth {
+    background: url(https://www.qiyipic.com/common/fix/h5_qiyiShop_img/hot_fifth.png) no-repeat; }
+  .new_hotSale_list .hotSale_info .hotSale_icon {
+    width: 57px;
+    height: 20px;
+    margin-top: 14px;
+    margin-bottom: 10px; }
+  .new_hotSale_list .hotSale_info .hotSale_title {
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 14px; }
+    .new_hotSale_list .hotSale_info .hotSale_title a {
+      color: #777; }
+  .new_hotSale_list .hotSale_info .hotSale_pricebox {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    line-height: 18px; }
+    .new_hotSale_list .hotSale_info .hotSale_pricebox .hotSale_price {
+      font-size: 18px;
+      color: #ee394b;
+      display: inline-block;
+      float: left; }
+    .new_hotSale_list .hotSale_info .hotSale_pricebox .hotSale_saleNum {
+      font-size: 12px;
+      color: #999;
+      float: right; }
+      .new_hotSale_list .hotSale_info .hotSale_pricebox .hotSale_saleNum em {
+        color: #ee394b;
+        padding-left: 10px; }
+
+.new_hotRecommend_icon {
+  background: url(https://www.qiyipic.com/common/fix/h5_qiyiShop_img/good_hot_redrecommend.png) no-repeat; }
+
+.hotRecomImg {
+  width: 100%;
+  height: 180px; }
+  .hotRecomImg img {
+    widows: 320px;
+    height: 160px;
+    padding-left: 10px;
+    padding-top: 10px; }
+
+.hotRecomTitle {
+  font-size: 14px;
+  color: #333;
+  line-height: 14px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.hotRecomDescribe {
+  font-size: 12px;
+  color: #999;
+  line-height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.brandBox {
+  position: relative; }
+  .brandBox .brandBox_prev_next, .brandBox .brandBox_prev, .brandBox .brandBox_next {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 40px;
+    height: 60px;
+    background-position: 0 0; }
+  .brandBox .brandBox_prev {
+    background: url(https://www.qiyipic.com/common/fix/PCIndex/images/newPCindexprev.png) no-repeat;
+    left: 0; }
+  .brandBox .brandBox_next {
+    background: url(https://www.qiyipic.com/common/fix/PCIndex/images/newPcINdexNext.png) no-repeat;
+    right: 0; }
+  .brandBox img {
+    width: 121px;
+    height: 121px; }
